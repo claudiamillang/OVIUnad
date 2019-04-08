@@ -1,31 +1,26 @@
-#unad{	/* propiedades logo institucional */
-	margin: auto;
-	width: 200px;
-	height:40px;
-}
-.contenedor{
-  height: 49%;
-  background-color: #6A737C;
-  margin: 1% 1%;
-}
+
+.header {
+
+			background: url(https://stadium.unad.edu.co/ovas/10596_9135/ECBTI-1.png) no-repeat;
+			background-size: 75%;
+			width:100%;
+			height:200px;
+			color: #333;
+			text-align: right;
+
+			font-family: sans-serif;
+		
+			}
+
+			
+
 
 			* {
 				margin:0px;
 				padding:0px;
 			}
-			
-			#header {
-				margin:auto;
-				width:50px;
-				font-family:sans-serif;
-			}
-			
-			#header1 {
-				
-				margin:auto;
-				width:50px;
-				font-family:sans-serif;
-			}
+
+
 			
 			ul, ol {
 				list-style:none;
@@ -34,9 +29,9 @@
 			.nav {
 			background-color:#004669;
 			width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
-			left: 0; /* Posicionamos la cabecera al lado izquierdo */
-			top: 0; /* Posicionamos la cabecera pegada arriba */
-			position: fixed; /* Hacemos que la cabecera tenga una posición fija */	
+			left:0%; /* Posicionamos la cabecera al lado izquierdo */
+			top: 200px; /* Posicionamos la cabecera pegada arriba */
+			/*position: fixed; /* Hacemos que la cabecera tenga una posición fija */	
 			}
  nav ul {
 		float:left;
@@ -45,14 +40,15 @@
 		list-style-type: none;
 		padding-right: 0;
 		position: relative; 
+		text-align: center;
       
 	}
 	
 		nav ul li {
 			display: inline-block;
-			line-height: 20px;
+			line-height: 18px;
 			position: relative; 
-            left: 35%;	/* Ubicacion del Menu */		
+            /*left: 35%;	/* Ubicacion del Menu */		
 		}
 			.nav > li {
 				float: center; /* Alinear el texto */
@@ -87,8 +83,16 @@
 			
 			.nav li ul li ul {
 				right: 100px;
-				top:0px;
-			}
+				top:0px;}
+
+
+.contenido{
+	font-size: 2rem;
+	margin-top: 150px;
+	justify-content: center;
+}
+	
+
 .footer {
   position: fixed;
   left: 0;
@@ -97,4 +101,4 @@
   background-color: #004669;
   color: white;
   text-align: center;
-}
+  ]
